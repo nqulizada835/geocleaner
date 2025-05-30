@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "geoaddresscleaner"
+version = "0.1.0"
+description = "A lightweight Python package for cleaning and standardizing US street addresses."
+authors = [
+    {name = "Nelofar Qulizada", email = "nqulizada835@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "regex; extra == 'full'",
+    "geopy; extra == 'full'"
+]
+
+[project.urls]
+Homepage = "https://github.com/nqulizada835/geocleaner"
+Bug Tracker = "https://github.com/nqulizada835/geocleaner/issues"
