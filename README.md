@@ -1,18 +1,13 @@
 # GeoCleaner
 
 A lightweight Python package for cleaning and standardizing US street addresses before geocoding or mapping.  
-It focuses on parsing, formatting, and basic validation of address strings.
+It focuses on basic validation of place name strings.
 
 ---
 
 ## Features
 
-- **Parses US addresses** from various formats (with or without commas)
-- **Standardizes addresses** to a consistent format:  
-  `Street, City, State ZIP`
-- **Validates state abbreviations** and basic address structure
-- **Optional geocoding** (requires `geopy`)
-
+-Capitalizes Place Names to capitalize first letter of each word
 ---
 
 ## Installation
