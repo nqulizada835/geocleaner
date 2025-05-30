@@ -1,6 +1,5 @@
-# docs/conf.py
-project = "Geocleaner"
-copyright = "2025, Nelofar Qulizada"
-author = "Nelofar Qulizada"
-extensions = ["sphinx.ext.autodoc"]
-html_theme = "sphinx_rtd_theme"
+version: 2  # Required for build.os
+build:
+  os: ubuntu-22.04  # Valid options: ubuntu-20.04, ubuntu-22.04, ubuntu-24.04
+  tools:
+    python: "3.11"
