@@ -28,15 +28,8 @@ Or, for development, install in editable mode from the project root:pip install 
 
 ## Usage
 
-from geoaddresscleaner.core import standardize_address, validate_address
-Standardize an address
-
-print(standardize_address("123 main st, springfield, il 62704"))
-Output: "123 Main St, Springfield, IL 62704"
-Validate an address
-
-print(validate_address("123 main st, springfield, il 62704"))
-Output: True
+from geocleaner.core import clean_location
+print(clean_location("   new york  "))  
 
 
 ---
