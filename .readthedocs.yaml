@@ -12,3 +12,8 @@ build:
   os: ubuntu-22.04
   tools:
     python: "3.11"
+
+# Optional output formats (remove if not needed)
+formats:
+  - pdf
+  - epub
