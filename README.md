@@ -1,7 +1,7 @@
 # GeoCleaner
 
 A lightweight Python package for cleaning and standardizing US street addresses before geocoding or mapping.  
-It focuses on basic validation of place name strings.
+It focuses on basic capitalization of place name strings.
 
 ---
 
