@@ -1,19 +1,22 @@
 version: 2
 
+# Tell RTD to operate from inside docs/source/
+subdirectory: docs/source
+
 sphinx:
-  configuration: docs/source/conf.py
+  configuration: conf.py
 
 python:
   install:
     - method: pip
-      path: .
+      path: ../../  # go back to project root to install your package
 
 build:
   os: ubuntu-22.04
   tools:
     python: "3.11"
 
-# Optional output formats (remove if not needed)
+# Optional formats (safe to omit if only HTML is needed)
 formats:
   - pdf
   - epub
