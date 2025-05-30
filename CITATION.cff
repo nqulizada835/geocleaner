@@ -1,0 +1,7 @@
+cff-version: 1.2.0
+title: "GeoAddressCleaner"
+authors:
+  - family-names: Qulizada
+    given-names: Nelofar
+version: 0.1.0
+license: MIT
