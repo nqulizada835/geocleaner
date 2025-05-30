@@ -24,7 +24,7 @@ Or, for development, install in editable mode from the project root:pip install 
 ## Usage
 
 from geocleaner.core import clean_location
-print(clean_location("   new york  "))  
+print(clean_location("   new york  "))   # → "New York"
 
 
 ---
