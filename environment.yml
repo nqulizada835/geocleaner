@@ -1,4 +1,4 @@
-name: geoaddresscleaner
+name: geocleaner
 channels:
   - defaults
   - conda-forge
