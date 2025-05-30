@@ -1,4 +1,4 @@
-# GeoAddressCleaner
+# GeoCleaner
 
 A lightweight Python package for cleaning and standardizing US street addresses before geocoding or mapping.  
 It focuses on parsing, formatting, and basic validation of address strings.
@@ -17,7 +17,7 @@ It focuses on parsing, formatting, and basic validation of address strings.
 
 ## Installation
 
-Install the package using pip:pip install geoaddresscleaner
+Install the package using pip:pip install geocleaner
 
 
 
@@ -44,8 +44,3 @@ Please open an issue or submit a pull request on GitHub.
 ## License
 
 [MIT License](LICENSE) 
-
-
-
-
-"# dummy change" 
