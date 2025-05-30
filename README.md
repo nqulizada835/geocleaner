@@ -50,7 +50,7 @@ Please open an issue or submit a pull request on GitHub.
 
 ## License
 
-[MIT License](LICENSE)
+[MIT License](LICENSE) 
 
 
 
