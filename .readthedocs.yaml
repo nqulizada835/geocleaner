@@ -1,10 +1,15 @@
+# .readthedocs.yaml
 version: 0.1.2
+
+build:
+  os: ubuntu-22.04
+  tools:
+    python: "3.11"
 
 sphinx:
   configuration: docs/source/conf.py
 
+# Optionally declare Python requirements for building docs
 python:
-  version: "3.11"
   install:
-    - method: pip
-      path: .
+    - requirements: docs/requirements.txt
