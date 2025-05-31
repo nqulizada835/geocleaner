@@ -19,3 +19,6 @@ Homepage = "https://github.com/nqulizada835/geocleaner"
 
 [tool.setuptools]
 license-files = []  # ✅ This disables injection of 'license-file'
+docs = [
+  "sphinx",
+  "sphinx_rtd_theme", ]
