@@ -1,10 +1,10 @@
-# tests/test_core.py
-import unittest
-from geocleaner import clean_location
+from geocleaner.core import clean_location, clean_locations
 
-class TestGeoCleaner(unittest.TestCase):
-    def test_clean_location(self):
-        self.assertEqual(clean_location("  new york  "), "New York")
+def test_clean_location():
+    assert clean_location(" 123 main st. ") == "123 Main Street"
+    assert clean_location("456  Elm Rd") == "456 Elm Road"
 
-if __name__ == '__main__':
-    unittest.main()
+def test_clean_locations():
+    data = ["1 oak ave", "55 cedar blvd "]
+    cleaned = clean_locations(data)
+    assert cleaned == ["1 Oak Avenue", "55 Cedar Boulevard"]
