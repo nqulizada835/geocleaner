@@ -1,14 +1,15 @@
-# -*- coding: utf-8 -*-
+# .readthedocs.yaml
+version: 2
 
-project = "Geocleaner"
-author = "Nelofar Qulizada"
-copyright = "2025, Nelofar Qulizada"
+build:
+  os: ubuntu-22.04
+  tools:
+    python: "3.11"
+  extra_requirements:
+    - docs  # Installs from docs/requirements.txt
 
-extensions = []
+sphinx:
+  configuration: docs/source/conf.py
+
+extensions = ["sphinx_rtd_theme"]
 html_theme = "sphinx_rtd_theme"
-
-html_logo = "_static/logo.png"
-html_favicon = "_static/favicon.ico"
-
-html_static_path = ['_static']
-html_css_files = ['custom.css']
