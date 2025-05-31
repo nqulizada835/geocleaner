@@ -1,3 +1,4 @@
 sphinx>=7.0
 alabaster>=0.7.12
 twine>=4.0          # for publishing to PyPI
+sphinx_rtd_theme
